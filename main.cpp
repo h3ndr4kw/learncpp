@@ -1,8 +1,10 @@
 #include <iostream>
 
-usinng namespace std;
+using namespace std;
 
-int main(){
-  cout << "Hello World" << endl;
+int main(int argc, char const *argv[])
+{
+  cout << "Hello world" << endl;
   return 0;
 }
+
