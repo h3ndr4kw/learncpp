@@ -24,16 +24,17 @@ int main(int argc,const char *argv[])
         cout << "Access denied - You must be at least 18 years old.\n";
         cout << "Age is: " << myNum << "\n\n\n";
     }
-    // Hero myHero2("Hendra", 1000, 1000);
-    // Hero myHero;
-    // vector<Hero> heros;
+    
+    Hero myHero2("Hendra", 1000, 1000);
+    Hero myHero;
+    vector<Hero> heros;
 
-    // myHero.name = "Ardo";
-    // myHero.setArmor(100);
-    // myHero.setHealth(1000);
+    myHero.name = "Ardo";
+    myHero.setArmor(100);
+    myHero.setHealth(1000);
 
-    // cout << "Hero Name: " << myHero.name << ", " << myHero2.name << endl;
-    // cout << "\tArmor: " << myHero.getArmor() << ", " << myHero2.getArmor() << endl;
-    // cout << "\tHealt: " << myHero.getHealth() << ", " << myHero2.getHealth() << endl;
+    cout << "Hero Name: " << myHero.name << ", " << myHero2.name << endl;
+    cout << "\tArmor: " << myHero.getArmor() << ", " << myHero2.getArmor() << endl;
+    cout << "\tHealt: " << myHero.getHealth() << ", " << myHero2.getHealth() << endl;
     return 0;
 }
